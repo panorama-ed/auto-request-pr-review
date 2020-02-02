@@ -1,0 +1,24 @@
+{
+  "name": "triage-review-to-team",
+  "version": "0.1.0",
+  "description": "This is a github workflow action that will proportionally assign a pull request review request to a team in an organization.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/panorama-ed/triage-review-to-team.git"
+  },
+  "keywords": [],
+  "author": "Mitchell Peabody",
+  "license": "MIT License",
+  "bugs": {
+    "url": "https://github.com/panorama-ed/triage-review-to-team/issues"
+  },
+  "homepage": "https://github.com/panorama-ed/triage-review-to-team#readme",
+  "dependencies": {
+    "@actions/core": "^1.2.2",
+    "@actions/github": "^2.1.0"
+  }
+}
