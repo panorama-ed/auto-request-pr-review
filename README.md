@@ -6,10 +6,10 @@ review request to a team in an organization.
 For example, let us say that our organization has an Engineering team. And
 underneath that, there are 3 teams.
 
-Engineering
-|- Team A (6 members)
-|- Team B (3 members)
-|- Team C (3 members)
+    Engineering
+    |- Team A (6 members)
+    |- Team B (3 members)
+    |- Team C (3 members)
 
 This action will automatically request reviews for PRs as they are opened. It
 will request reviews from members of Team A at twice the rate of Team B and Team
